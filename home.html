@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8"> <!--self-referential data, obtained from browser-->
+        <meta name="viewport" content="width=device-width, intitial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="home.css">
+    </head>
+    
+    
+    <body>
+        
+        <div class="container"> <!--for the contents of website-->
+        </div>
+    
+        <h1>GENTRI</h1>
+        
+        
+        <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href= "home.html"> Home</a>
+            <a href= "what_is.html"> What is Gentrification?</a>
+            <a href= "purpose.html"> Purpose</a>
+            <a href= ""> Game</a> <!--change this later on-->
+             </div>
+        </div>
+
+        <span style="font-size:120px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+        <script>
+            function openNav() {
+                document.getElementById("myNav").style.width = "100%";
+            }
+
+            function closeNav() {
+                document.getElementById("myNav").style.width = "0%";
+            }
+            
+        </script>
+        
+    </body>
+    
+</html>
