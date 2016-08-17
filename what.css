@@ -1,0 +1,30 @@
+h1 {
+	text-align: center;
+    color: black
+	}
+
+/*add margin */  
+#p1 {
+    color:black;
+    text-align: center
+}
+
+
+.right {
+    position: absolute;
+    left: 750px;
+    margin-right: 3cm;
+    padding: 10px;
+    font-size: 20px
+}
+
+
+.row1 {
+    margin-top: 5cm
+}
+
+body {
+    margin-left: 1cm;
+    margin-right: 1cm
+}
+
