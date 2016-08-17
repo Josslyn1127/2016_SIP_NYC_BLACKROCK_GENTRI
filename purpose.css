@@ -1,0 +1,7 @@
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href= "home.html"> Home</a>
+            <a href= "what_is.html"> What is Gentrification?</a>
+            <a href= "purpose.html"> Purpose</a>
+            <a href= ""> Game</a> <!--change this later on-->
