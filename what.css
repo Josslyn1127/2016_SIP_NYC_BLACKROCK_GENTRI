@@ -10,20 +10,66 @@ h1 {
 #p1 {
     color:black;
     text-align: center;
-    font-size:15pt
+    font-size:15pt;
+    margin-left:1cm;
+    margin-right:1cm
+    
 }
 
-
-.right {
-    position: absolute;
-    left: 750px;
-    margin-right: 3cm;
-    padding: 10px;
-    font-size: 20px
+#newyorkcity
+{
+    color:blue;
+    margin-top:2cm;
+    margin-left:17cm
+}
+#nycpic
+{
+   margin-left:3cm;
+}
+#newyorktext
+{
+   color:black;
+}
+#sanfrantitle {
+    margin-left:-20cm;
+    margin-bottom:0cm;
+    color:purple;
+    text-align:center
 }
 
-
-.row1 {
-    margin-top: 5cm
+#sanfran
+{
+    margin-top:1cm;
+    margin-left:3cm
+    
 }
 
+#sanfrantext
+{
+    margin-left:9cm;
+    margin-right:2cm;
+    color:black;
+    margin-bottom:1cm;
+    margin-top:-5cm
+    
+}
+
+#seattletitle {
+    margin-left:23cm;
+    margin-top:-9cm;
+    color:green;
+    
+}
+
+#seattletext
+{
+    margin-right:20cm;
+    margin-left:2cm;
+    margin-top:1cm
+}
+
+#seattlemap
+{
+   
+    
+}
