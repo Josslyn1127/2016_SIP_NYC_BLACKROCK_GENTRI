@@ -1,12 +1,16 @@
+
 h1 {
 	text-align: center;
-    color: black
+    color: black;
+    font-family:"Andada";
+    font-size:30pt
 	}
 
 /*add margin */  
 #p1 {
     color:black;
-    text-align: center
+    text-align: center;
+    font-size:15pt
 }
 
 
@@ -21,10 +25,5 @@ h1 {
 
 .row1 {
     margin-top: 5cm
-}
-
-body {
-    margin-left: 1cm;
-    margin-right: 1cm
 }
 
