@@ -1,24 +1,36 @@
 
+header{
+    background-color:#32ADA1;
+    margin-top:-1cm
+    
+    
+}
+color{
+    color:#32ADA1;
+}
+
 h1 {
 	text-align: center;
-    color: black;
+    color: white;
     font-family:"Andada";
-    font-size:30pt
+    font-size:30pt;
+    font-weight:thick
 	}
 
 /*add margin */  
 #p1 {
-    color:black;
+    color:white;
     text-align: center;
     font-size:15pt;
     margin-left:1cm;
     margin-right:1cm
+    margin-bottom:1cm
     
 }
 
 #newyorkcity
 {
-    color:blue;
+    color:#32ADA1;
     margin-top:2cm;
     margin-left:17cm
 }
@@ -33,20 +45,20 @@ h1 {
 #sanfrantitle {
     margin-left:-20cm;
     margin-bottom:0cm;
-    color:purple;
+    color:#32ADA1;
     text-align:center
 }
 
 #sanfran
 {
-    margin-top:1cm;
-    margin-left:3cm
+    margin-top:.5cm;
+    margin-left:1.5cm
     
 }
 
 #sanfrantext
 {
-    margin-left:9cm;
+    margin-left:11cm;
     margin-right:2cm;
     color:black;
     margin-bottom:1cm;
@@ -56,8 +68,8 @@ h1 {
 
 #seattletitle {
     margin-left:23cm;
-    margin-top:-9cm;
-    color:green;
+    margin-top:-10cm;
+    color:#32ADA1;
     
 }
 
@@ -68,8 +80,58 @@ h1 {
     margin-top:1cm
 }
 
-#seattlemap
+
+#map
 {
+  margin-left:21cm;
+  margin-top:-5cm
+
+}
+
+.jumbotron
+{
+   margin-top:-12cm;
+   margin-right:20cm;
+    margin-left:2cm
+}
+
+#chart{
+    margin-top:3cm;
+    margin-left:4cm;
+    color:#32ADA1
+    
+}
+
+table{
+   margin-top:.5cm;
+   margin-right:1cm;
+   margin-left:2cm;
+   max-width:500px
    
+}
+#quoting{
+   color:#32ADA1; 
+   text-align:center
+}
+
+
+
+
+#quote
+{
+    margin-left:4cm;
+    color:black;
+    
+}
+#second,#first
+{
+    text-align:center
+}
+
+#conclusion{
+    margin-left:20cm;
+    margin-right:5cm;
+    margin-top:-12cm;
+    font-size:18pt
     
 }
