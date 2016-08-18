@@ -7,8 +7,17 @@
 h1 {
     color:black;
     text-align:center;
-    font-family: "Indie Flower";
+    font-family: "Andada";
     font-size:60px
+    
+}
+
+h3 {
+    font-size:17pt;
+    text-align:center;
+    color:black;
+    font-family: "Andada"
+    
     
 }
 
