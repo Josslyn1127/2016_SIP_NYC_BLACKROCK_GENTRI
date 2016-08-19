@@ -1,6 +1,8 @@
 
 header{
     background-color:#32ADA1;
+    line-height:200px;
+    height:190px;
     margin-top:-1cm
     
     
@@ -10,7 +12,8 @@ color{
 }
 
 h1 {
-	text-align: center;
+	margin-top:1.5cm;
+    text-align: center;
     color: white;
     font-family:"Andada";
     font-size:30pt;
@@ -21,10 +24,10 @@ h1 {
 #p1 {
     color:white;
     text-align: center;
-    font-size:15pt;
+    font-size:14pt;
     margin-left:1cm;
     margin-right:1cm;
-    margin-bottom:1cm;
+ 
     
 }
 
