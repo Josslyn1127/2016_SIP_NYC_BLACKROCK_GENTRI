@@ -108,7 +108,8 @@ var purpleState = {
 		game.load.image('plane', "assets/plane.jpg");
 		game.load.image('wreckingball', "assets/wreckingball.jpg");
 		game.load.image('gentri', "assets/gentri.png");
-		//game.load.audio('coinsound', "["assets/coinsound.mp3", "assets/coinsound.ogg"]");
+		game.load.audio('coinsound', "assets/coinsound.ogg");
+		game.load.audio('failsound', "assets/failsound.ogg");
 	},
 	create:function(){
 		city = game.add.tileSprite(0,0,831,600,'city');
@@ -120,6 +121,8 @@ var purpleState = {
 		purplebird = game.add.sprite(game.world.centerX - 250, game.world.centerY - 100, "purplebird");
 		game.physics.enable(purplebird,Phaser.Physics.ARCADE);
 		cursors = game.input.keyboard.createCursorKeys();
+		coinsound = game.add.audio('coinsound');
+		failsound = game.add.audio('failsound');
 
 		coins = game.add.physicsGroup();
     	for (var i = 0; i < 10; i++) {
@@ -180,10 +183,11 @@ var purpleState = {
 		scoreText.text = 'score:  ' + score;
 		coins.y = -100;
 		coins.x = game.world.randomX;
-		//coinsound.add();
+		coinsound.play();
 	}
 
 	function wreckball (purplebird, wreckingballs){
+		failsound.play();
 		purplebird.body.position.x = game.world.centerX - 250;
 		purplebird.body.position.y = game.world.centerY - 100;
 		setTimeout (1000);
@@ -196,6 +200,7 @@ var purpleState = {
 		scoreText.text = 'score:  ' + score;
 		planes.y = -100;
 		planes.x = game.world.randomX;
+		failsound.play();
     }
 
 var greenState = {
@@ -206,6 +211,8 @@ var greenState = {
 		game.load.image('plane', "assets/plane.jpg");
 		game.load.image('wreckingball', "assets/wreckingball.jpg");
 		game.load.image('gentri', "assets/gentri.png");
+		game.load.audio('coinsound', "assets/coinsound.ogg");
+		game.load.audio('failsound', "assets/failsound.ogg");
 	},
 
 	create:function(){
@@ -221,6 +228,8 @@ var greenState = {
 		greenbird = game.add.sprite(game.world.centerX - 250, game.world.centerY - 100, "greenbird");
 		game.physics.enable(greenbird,Phaser.Physics.ARCADE);
 		cursors = game.input.keyboard.createCursorKeys();
+		coinsound = game.add.audio('coinsound');
+		failsound = game.add.audio('failsound');
 
 		coins = game.add.physicsGroup();
     	for (var i = 0; i < 8; i++) {
@@ -277,6 +286,7 @@ var greenState = {
     },
 }
 	function collisionHandler2(greenbird, coins){
+		coinsond.play();
 		score +=20;
 		scoreText.text = 'score:  ' + score;
 		coins.y = -100;
@@ -289,6 +299,7 @@ var greenState = {
 		setTimeout (1000);
 		score -=40;
 		scoreText.text = 'score:  ' + score;
+		failsound.play();
 	}
 
 	function hitplane2 (greenbird, planes){
@@ -296,6 +307,7 @@ var greenState = {
 		scoreText.text = 'score:  ' + score;
 		planes.y = -100;
 		planes.x = game.world.randomX;
+		failsound.play();
     }
 
 var lostState = {
@@ -303,9 +315,12 @@ var lostState = {
 		game.load.image('endscreen' , "assets/endscreen.png");
 		game.load.image('gentri', "assets/gentri.png");
 		game.load.image('next', "assets/next.png");
+		game.load.audio('failend', "assets/failend.ogg");
 	},
 
 	create:function(){
+		failend = game.add.audio('failend');
+		failend.play();
 	 	endscreen = game.add.tileSprite(0,0,831,600,'endscreen');
 	 	gentri = game.add.tileSprite(game.world.centerX - 405, game.world.centerY + 220, 70, 70, 'gentri');
 	 	var next = this.game.add.button(game.world.centerX + 270, game.world.centerY + 180, "next",this.startinfo, this);
@@ -321,9 +336,12 @@ var wonState = {
 		game.load.image('winscreen', "assets/winscreen.png");
 		game.load.image('gentri', "assets/gentri.png");
 		game.load.image('next', "assets/next.png");
+		game.load.audio('winend', "assets/winend.ogg");
 	},
 
 	create:function(){
+		winend = game.add.audio('winend');
+		winend.play();
 	 	winscreen = game.add.tileSprite(0,0,831,600,'winscreen');
 	 	gentri = game.add.tileSprite(game.world.centerX - 405, game.world.centerY + 220, 70, 70, 'gentri');
 	 	var next = this.game.add.button(game.world.centerX + 270, game.world.centerY + 180, "next",this.startinfo, this);
