@@ -1,0 +1,81 @@
+
+header{
+    background-color:#32ADA1;
+    line-height:200px;
+    height:230px;
+    margin-top:-1cm
+	
+    
+}
+
+
+h1 {
+    color:white;
+    text-align:center;
+    font-family: "Andada";
+    font-size:60px;
+	margin-top:1.5cm;
+	margin-left:-2cm
+	
+    
+}
+
+#p1 {
+    font-size:20pt;
+    margin-left:3cm;
+    color:white;
+    font-family: "Andada";
+	margin-top:1cm;
+	margin-left:1cm
+	
+	
+}
+
+#logo {
+    width:1.5cm;
+    height:1.5cm;
+    margin-top:.25cm
+}
+
+ nav{
+	 margin-top:-.5cm;
+	 margin-left:-18cm;
+	 font-size:14pt
+ }
+#map7{
+	margin-left:5cm;
+	width:80%;
+	margin-top:3cm
+}
+#se{
+	height:5.5cm;
+	
+}
+
+#set{
+	font-size:14pt
+}
+#bo{
+	margin-left:-4cm
+}
+#ny{
+	margin-left:2cm
+}
+#botext{
+	margin-left:-4cm;
+	font-size:14pt
+	
+}
+#nyt{
+	
+	margin-left:4cm;
+	font-size:14pt
+}
+
+footer{
+	font-size:14pt
+}
+
+#pictitle{
+	font-size:18pt
+}

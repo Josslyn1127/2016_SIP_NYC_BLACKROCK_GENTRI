@@ -1,0 +1,166 @@
+
+header{
+    background-color:#32ADA1;
+    line-height:200px;
+    height:230px;
+    margin-top:-1cm
+	
+    
+}
+nav{
+	 margin-left:-18cm;
+	 font-size:14pt
+ }
+
+h1 {
+	margin-top:1.5cm;
+    text-align: center;
+    color: white;
+    font-family:"Andada";
+    font-size:35pt;
+    font-weight:thick
+	}
+
+/*add margin */  
+#p1 {
+    color:white;
+    text-align: center;
+    font-size:18pt;
+	font-family:"Andada";
+    margin-left:1cm;
+    margin-right:1cm;
+ 
+    
+}
+
+#newyorkcity
+{
+    color:#32ADA1;
+    margin-top:1cm;
+    margin-left:-1cm
+}
+#nycpic
+{
+   margin-right:-6cm
+}
+#newyorktext
+{
+   color:black;
+   margin-left:-5cm;
+   margin-right:17cm;
+   margin-top:1cm;
+   font-size:18pt
+   
+}
+#sanfrantitle{
+    margin-left:-23cm;
+    margin-bottom:0cm;
+    color:#32ADA1;
+    text-align:center
+}
+
+#sanfran
+{
+    margin-top:.5cm;
+    margin-right:15cm;
+	margin-left:6cm;
+	width:600px
+    
+}
+
+#sanfrantext
+{
+    margin-left:25cm;
+    margin-right:5cm;
+    color:black;
+    margin-bottom:1cm;
+    margin-top:-7cm;
+	font-size:18pt
+    
+}
+
+#seattletitle {
+    margin-left:10cm;
+    margin-top:7cm;
+    color:#32ADA1;
+	margin-bottom:-1cm
+    
+}
+
+#seattletext
+{
+    margin-right:25cm;
+    margin-left:3cm;
+    margin-top:2cm;
+	margin-bottom:-20cm
+}
+
+
+#map
+{
+  margin-left:30cm;
+  margin-top:10cm;
+  margin-bottom:11cm;
+  width:17cm;
+  height:27cm
+
+}
+
+.jumbotron
+{
+   margin-top:-26cm;
+   margin-right:30cm;
+   margin-left:3cm;
+   margin-bottom:1cm;
+   
+}
+
+#chart{
+    margin-top:3cm;
+	margin-bottom:1cm;
+	margin-left:6cm;
+    color:#32ADA1
+    
+}
+
+table{
+   margin-top:1cm;
+   margin-right:1cm;
+   margin-left:2.5cm;
+   max-width:600px;
+   max-height:700px;
+   margin-bottom:1cm
+   
+}
+#quoting{
+   color:#32ADA1; 
+   text-align:center
+}
+
+
+
+
+#quote
+{
+    margin-left:7cm;
+    color:black;
+	margin-top:.5cm
+    
+}
+#second,#first
+{
+    text-align:center
+}
+#conclusion{
+    margin-left:21cm;
+    margin-right:3cm;
+    margin-top:-9cm;
+    font-size:18pt
+    
+}
+
+#logo {
+    width:1.5cm;
+    height:1.5cm;
+    margin-top:.25cm
+}
