@@ -12,16 +12,14 @@ header { /* This is the bar thingy that purpose sits in */
   height: 190px;
   line-height: 200px;
   background: #32ADA1;
-
-  
   color: white;
   margin-top: -1cm;
   font-size: 60px;;
 }
 
-@font-face {
-    font-family: "DTM-Mono";
-    src: url(DTM-Mono.otf);
-}
+
+
+
+
 
 

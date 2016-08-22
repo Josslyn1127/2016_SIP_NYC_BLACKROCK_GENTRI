@@ -1,9 +1,12 @@
 
-.itemactive {
- border-style: dotted   
-    
+#gametext{
+    font-size:14pt;
+    font-weight:thick;
+    margin-left:1cm
 }
-
+#button{
+    margin-left:2.5cm
+}
 h1 {
     color:black;
     text-align:center;
@@ -20,6 +23,34 @@ h3 {
     
     
 }
+
+
+#logo{
+    margin-left:-2cm;
+    margin-top:.2cm;
+    width:1cm;
+    height:1cm
+}
+
+
+header{
+    background-color:#32ADA1;
+    line-height:200px;
+    height:230px;
+    margin-top:-2cm
+	
+    
+}
+
+#title{
+  margin-top:2.5cm;
+color:white 
+}
+
+#p1{
+    color:white
+}
+
 
 
 

@@ -1,4 +1,3 @@
-
  <!DOCTYPE html> 
  <html lang="en"> 
 
@@ -18,13 +17,11 @@ table {
     border-collapse: collapse;
     width: 100%;
 }
-
 td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
 }
-
 tr:nth-child(even) {
     background-color: #dddddd;
 }
@@ -36,28 +33,42 @@ tr:nth-child(even) {
 	
 
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li><a href="newhome.html">Home</a></li>
-        <li><a href="what.html">What is Gentrification?</a></li>
-        <li><a href="index.html">Purpose</a></li>
-        <li><a href="">Game</a><!--change this later on--></li>
-        <li><a href="aboutus.html"> About Us </a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
+ <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <img src = "logo.png" id="logo"> <a class="navbar-brand"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="newhome.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="what.html">What is Gentrification?</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Purpose</a>
+                    </li>
+                    <li>
+                        <a href="newgame.html">Game</a>
+                    </li>
+                    <li>
+                       <a href="about.html">About Us</a>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
 
 
@@ -99,7 +110,7 @@ tr:nth-child(even) {
          <h2 class="featurette-heading" id="sanfrantitle"> Struggles Along the West Coast  
              </h2> 
          <div class="featurette" id="sanfran"> 
-             <iframe class="featurette-image width="560" height="290"src="https://www.youtube.com/embed/tYNuR1oaQts" id="sanfran">
+             <iframe class="featurette-image width="560" height="300"src="https://www.youtube.com/embed/tYNuR1oaQts" id="sanfran">
              </iframe>  
              <p class="lead" id="sanfrantext">A young man who used to live in the Mission District of San Francisco displays his concerns and tells us the changes that have taken place in his neighborhood.</p> 
          </div>  
@@ -108,13 +119,13 @@ tr:nth-child(even) {
  
  
          <!-- Third Featurette --> 
-         <div class="featurette" id="contact"> 
-             <img class="featurette-image img-circle img-responsive pull-right" width="450" height="300"> 
-             <h2 class="featurette-heading"id="seattletitle">Income Differences
+         
+              
+             <h2 id="seattletitle"> Income Differences
              </h2> 
              <p class="lead" id="seattletext" >This map showcases the neighborhoods in Seattle that have changed since 2000, because of gentrification. As you can tell the areas are scattered all over the city and do not seem to be taking place in a specific spot. </p> 
-         </div>  
-         <hr class="featurette-divider"> 
+           
+         
 <img src="blue.jpg" id="map"width="400" height "50">
 <div class="jumbotron">     
     
@@ -171,4 +182,3 @@ tr:nth-child(even) {
  
  
  </html> 
-

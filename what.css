@@ -1,7 +1,7 @@
 
 header{
     background-color:#32ADA1;
-    line-height:200px;
+    line-height:180px;
     height:190px;
     margin-top:-1cm
     
@@ -55,24 +55,29 @@ h1 {
 #sanfran
 {
     margin-top:.5cm;
-    margin-left:1.5cm
+    margin-left:1cm;
     
+ 
+
 }
 
 #sanfrantext
 {
-    margin-left:11cm;
-    margin-right:2cm;
+    margin-left:15cm;
+    margin-right:3cm;
     color:black;
     margin-bottom:1cm;
     margin-top:-5cm
+
     
 }
 
 #seattletitle {
     margin-left:23cm;
-    margin-top:-10cm;
+    margin-top:3cm;
     color:#32ADA1;
+  
+  
     
 }
 
@@ -87,13 +92,13 @@ h1 {
 #map
 {
   margin-left:21cm;
-  margin-top:-5cm
+  margin-top:-4cm
 
 }
 
 .jumbotron
 {
-   margin-top:-12cm;
+   margin-top:-13cm;
    margin-right:20cm;
     margin-left:2cm
 }
@@ -112,9 +117,14 @@ table{
    max-width:500px
    
 }
+
+
+
 #quoting{
    color:#32ADA1; 
-   text-align:center
+   text-align:center;
+   margin-top:-1cm
+
 }
 
 
@@ -122,8 +132,10 @@ table{
 
 #quote
 {
-    margin-left:4cm;
+    margin-left:2.5cm;
     color:black;
+    margin-top:-.5cm
+  
     
 }
 #second,#first
@@ -134,7 +146,17 @@ table{
 #conclusion{
     margin-left:20cm;
     margin-right:5cm;
-    margin-top:-12cm;
-    font-size:18pt
+    margin-top:-10cm;
+    font-size:16pt;
+    text-align:center
     
+}
+
+
+ 
+#logo{
+    margin-left:-2cm;
+    margin-top:.2cm;
+    width:1cm;
+    height:1cm
 }

@@ -1,0 +1,31 @@
+
+  #logo{
+    margin-left:-2cm;
+    margin-top:.2cm;
+    width:1cm;
+    height:1cm
+}
+
+header{
+    background-color:#32ADA1;
+    line-height:200px;
+    height:230px;
+    margin-top:-2cm
+	
+    
+}
+#title{
+    color:white;
+    font-size:32pt;
+    margin-top:3cm;
+    margin-left:12cm;
+    font-family:"Andada"
+
+   
+}
+
+#gamepic{
+    margin-top:1cm;
+    margin-left:15cm
+}
+

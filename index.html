@@ -1,92 +1,119 @@
-<!doctype html>
-<html lang="en" class="no-js">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+ <!DOCTYPE html> 
+ <html lang="en"> 
 
-	<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
-
-	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-	<script src="js/modernizr.js"></script> <!-- Modernizr -->
-  	
-	<title>Purpose</title>
- 
+<head> 
+    <meta charset="utf-8"> <!--self-referential data, obtained from browser--> 
+    <meta name="viewport" content="width=device-width, intitial-scale=1"> 
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+   <link rel="stylesheet" type="text/css" href="index.css"> 
 </head>
+
 <body>
 
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>                        
-          </button>
-          
+<nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <img src = "logo.png" id="logo"> <a class="navbar-brand"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="newhome.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="what.html">What is Gentrification?</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Purpose</a>
+                    </li>
+                    <li>
+                        <a href="newgame.html">Game</a>
+                    </li>
+                    <li>
+                       <a href="about.html">About Us</a>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav">
-            <li><a href="newhome.html">Home</a></li>
-            <li><a href="what.html">What is Gentrification?</a></li>
-            <li><a href="index.html">Purpose</a></li>
-            <li><a href="game.html">Game</a></li>
-          </ul>
-        </div>
-      </div>
+        <!-- /.container -->
     </nav>
-    
-	<header>
-		<h1>Purpose</h1>
-	</header>
-
-	<section id="cd-timeline" class="cd-container">
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
-				<img src="img/cd-icon-picture.svg" alt="Picture">
-			</div> <!-- cd-timeline-img -->
-
-			<div class="cd-timeline-content">
-				<h2>1</h2>
-				<p> Provide a simple demonstration of the potentially detrimental effects of gentrification using our interactives and games.</p>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
-
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-movie">
-				<img src="img/cd-icon-movie.svg" alt="Movie">
-			</div> <!-- cd-timeline-img -->
-
-			<div class="cd-timeline-content">
-				<h2>2</h2>
-				<p>Spread awareness about the prevalence of gentrification, particularly in New York City, one of the fastest gentrifying cities in the Unites States.</p>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
-
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
-				<img src="img/cd-icon-picture.svg" alt="Picture">
-			</div> <!-- cd-timeline-img -->
-
-			<div class="cd-timeline-content">
-				<h2>3</h2>
-				<p>Stimulate further research into the possible causes and effects of gentrification.</p>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
-
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-location">
-				<img src="img/cd-icon-location.svg" alt="Location">
-			</div> <!-- cd-timeline-img -->
-
-			<div class="cd-timeline-content">
-				<h2> 4</h2>
-				<p>Serve as a resource for those interested in learning about gentrification. </p>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
 
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
+
+
+
+
+
+
+
+<header class="header-image"> 
+         <div class="headline"> 
+            <div class="container"> 
+                <h1 id="ptitle">Purpose</h1> 
+         </div> 
+         </div> 
+     </header> 
+ 
+    <ul class="timeline">
+        <li>
+          <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">1</h4>
+             
+            </div>
+            <div class="timeline-body">
+              <p> Provide a simple demonstration of the potentially detrimental effects of gentrification using our interactives and games.</p>
+            </div>
+          </div>
+        <img src="compare.jpg" style="width:304px;height:228px;" id="compare">
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">2</h4>
+            </div>
+            <div class="timeline-body">
+              <p>Spread awareness about the prevalence of gentrification, particularly in New York City, one of the fastest gentrifying cities in the Unites States.</p>
+             
+            </div>
+          </div>
+           <img src="poster.png" style="width:304px;height:228px;" id="poster">
+        </li>
+        <li>
+          <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">3</h4>
+            </div>
+            <div class="timeline-body">
+              <p>Stimulate further research into the possible causes and effects of gentrification.</p>
+            </div>
+          </div>
+          <img src="cit.jpg" style="width:304px;height:228px;" id="city">
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">4</h4>
+            </div>
+            <div class="timeline-body">
+              <p>Serve as a resource for those interested in learning about gentrification.</p>
+            </div>
+          </div>
+          <img src="fullhouse.jpg" style="width:304px;height:228px;" id="full">
+        </li>
+        <li>
+          
+        </li>
+    </ul>
+</div>
 </body>
 </html>

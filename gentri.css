@@ -1,0 +1,153 @@
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+/* Heading */
+
+h1 {
+
+     font-family: Andada;
+
+     font-size: 100px;
+
+     text-align: left;
+
+     color: white;
+
+     font-style: normal;
+
+     font-variant: normal;
+
+     font-weight: 500;
+
+     margin: 0;
+
+     position: absolute;
+
+     top: 80%;
+
+     left:20%;
+
+     transform: translate(-50%, -50%);
+
+}
+
+
+
+
+/* The Photo */
+
+body {
+
+    background-image: url("harlemphoto.jpg");
+
+    width: 100%;
+
+    height: 400px;
+
+    background-size: cover;
+
+    margin: 0;
+
+    font-family: "Lobster Two";
+
+    font-size: 24px;
+
+    font-style: normal;
+
+    font-variant: normal;
+
+    font-weight: 500;
+
+    line-height: 26.4px;
+
+    color: white;
+
+}
+
+
+
+
+/* Navigation Bar */
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-height: 450px) {
+
+  .overlay a {font-size: 20px}
+
+  .overlay .closebtn {
+
+    font-size: 40px;
+
+    top: 15px;
+
+    right: 35px;
+
+  }
+
+}
+
+
+
+
+      #map {
+
+        width: 100%;
+
+        height: 400px;
+
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <h3>My Google Maps Demo</h3>
+
+    <div id="map"></div>
+
+    <script>
+
+      function initMap() {
+
+        var mapDiv = document.getElementById('map');
+
+        var map = new google.maps.Map(mapDiv, {
+
+            center: {lat: 44.540, lng: -78.546},
+
+            zoom: 8
+
+        });
+
+      }
+
+    </script>
+
+    <script async defer
+
+        src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+
+    </script>

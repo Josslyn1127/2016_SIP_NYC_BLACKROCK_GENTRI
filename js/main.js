@@ -1,26 +1,38 @@
 jQuery(document).ready(function($){
-	var timelineBlocks = $('.cd-timeline-block'),
-		offset = 0.8;
+	var is_firefox = navigator.userAgent.indexOf('Firefox') > -1;
 
-	//hide timeline blocks which are outside the viewport
-	hideBlocks(timelineBlocks, offset);
+	//open team-member bio
+	$('#cd-team').find('ul a').on('click', function(event){
+		event.preventDefault();
+		var selected_member = $(this).data('type');
+		$('.cd-member-bio.'+selected_member+'').addClass('slide-in');
+		$('.cd-member-bio-close').addClass('is-visible');
 
-	//on scolling, show/animate timeline blocks when enter the viewport
-	$(window).on('scroll', function(){
-		(!window.requestAnimationFrame) 
-			? setTimeout(function(){ showBlocks(timelineBlocks, offset); }, 100)
-			: window.requestAnimationFrame(function(){ showBlocks(timelineBlocks, offset); });
+		// firefox transitions break when parent overflow is changed, so we need to wait for the end of the trasition to give the body an overflow hidden
+		if( is_firefox ) {
+			$('main').addClass('slide-out').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
+				$('body').addClass('overflow-hidden');
+			});
+		} else {
+			$('main').addClass('slide-out');
+			$('body').addClass('overflow-hidden');
+		}
+
 	});
 
-	function hideBlocks(blocks, offset) {
-		blocks.each(function(){
-			( $(this).offset().top > $(window).scrollTop()+$(window).height()*offset ) && $(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
-		});
-	}
+	//close team-member bio
+	$(document).on('click', '.cd-overlay, .cd-member-bio-close', function(event){
+		event.preventDefault();
+		$('.cd-member-bio').removeClass('slide-in');
+		$('.cd-member-bio-close').removeClass('is-visible');
 
-	function showBlocks(blocks, offset) {
-		blocks.each(function(){
-			( $(this).offset().top <= $(window).scrollTop()+$(window).height()*offset && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) && $(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
-		});
-	}
+		if( is_firefox ) {
+			$('main').removeClass('slide-out').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
+				$('body').removeClass('overflow-hidden');
+			});
+		} else {
+			$('main').removeClass('slide-out');
+			$('body').removeClass('overflow-hidden');
+		}
+	});
 });
