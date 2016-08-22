@@ -286,7 +286,7 @@ var greenState = {
     },
 }
 	function collisionHandler2(greenbird, coins){
-		coinsond.play();
+		coinsound.play();
 		score +=20;
 		scoreText.text = 'score:  ' + score;
 		coins.y = -100;
