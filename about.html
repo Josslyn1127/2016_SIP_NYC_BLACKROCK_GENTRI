@@ -5,14 +5,83 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif' rel='stylesheet' type='text/css'>
+     <meta name="viewport" content="width=device-width, intitial-scale=1"> 
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+   
 
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/about.css"> <!-- Gem style -->
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
   	
 	<title>About Us</title>
+    
+     <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+    .carousel-inner img {
+      width: 85%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+    }
+
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+    @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+    }
+    </style>
+  
 </head>
+
 <body>
+
+ <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+             
+                
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <img src = "logo.png" id="logo"> <a class="navbar-brand"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="newhome.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="what.html">What is Gentrification?</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Purpose</a>
+                    </li>
+                    <li>
+                        <a href="newgame.html">Game</a>
+                    </li>
+                    <li>
+                       <a href="about.html">About Us</a>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
 	<main>
 		<header class="cd-section">
 			<div class="cd-container">
@@ -112,7 +181,7 @@
 
 		<div class="cd-bio-content">
 			<h1>Meet Josslyn Cornejo</h1>
-               <p>Josslyn is currently an uprising senior who lives in New York City. She is 16 years old and loves to sing, listen to music and plans to major in computer science! Her neighborhood (Harlem) has recently gone through many changes which is why she came came up with the inspiration of the idea.  Her favorite animal is a cheetah, she loves the color turquoise and she loves to travel.  </p>
+               <p>Josslyn is currently an rising senior who lives in New York City. She is 16 years old and loves to sing, listen to music and plans to major in computer science! Her neighborhood (Harlem) has recently gone through many changes which is why she came came up with the inspiration of the idea.  Her favorite animal is a cheetah, she loves the color turquoise and she loves to travel.  </p>
             </div> <!-- cd-bio-content -->
 	</div> <!-- cd-member-bio -->
 

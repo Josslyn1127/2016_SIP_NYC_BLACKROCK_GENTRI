@@ -3,6 +3,29 @@
 Primary style
 
 -------------------------------- */
+
+#logo{
+    width:2cm;
+    height:1cm;
+    margin-top:.2cm;
+    margin-left:-1.4cm
+    
+}
+
+   
+nav{
+   
+    font-size:10pt;
+    font-family:"Arial";
+    margin-right:1.2cm
+}
+
+
+
+
+
+
+
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -12,6 +35,14 @@ html * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+header{
+    background-color:#32ADA1;
+    line-height:100px;
+    height:180px;
+    margin-top:.01cm
+    
 }
 
 body {
@@ -153,6 +184,7 @@ header h1 { /* This is the bar thingy that purpose sits in */
   color: white;
   font-size: 60px;
   font-family: "Andada";
+  margin-top:-2cm;
 }
 
 header p {
@@ -167,7 +199,7 @@ header p {
 }
 
 #cd-team {
-  background: #f25f5c;
+  background: #73AD21;
 }
 #cd-team .cd-container {
   max-width: 1200px;
