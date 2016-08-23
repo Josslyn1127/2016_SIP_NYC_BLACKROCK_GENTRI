@@ -16,12 +16,24 @@ Primary style
    
 nav{
    
+<<<<<<< HEAD
     font-size:10.5pt;
+=======
+    font-size:10pt;
+>>>>>>> 3bd7c3380e683872038e55a51f0b07f0d6609cdd
     font-family:"Arial";
     margin-right:1.2cm
 }
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+>>>>>>> 3bd7c3380e683872038e55a51f0b07f0d6609cdd
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
