@@ -1,6 +1,11 @@
-body{
-    background-color:#a6ff9b
+section{
+    background-color: #ffe0ce
 }
+
+#iframe {
+    padding: 30px;
+}
+
   #logo{
     margin-left:-2cm;
     margin-top:.2cm;
