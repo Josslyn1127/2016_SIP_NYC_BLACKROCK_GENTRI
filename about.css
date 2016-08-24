@@ -15,17 +15,12 @@ Primary style
 
    
 nav{
-   
-    font-size:10pt;
+
+    font-size:10.5pt;
+
     font-family:"Arial";
     margin-right:1.2cm
 }
-
-
-
-
-
-
 
 html * {
   -webkit-font-smoothing: antialiased;
